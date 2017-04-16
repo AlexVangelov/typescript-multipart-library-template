@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "outDir": "./lib",
+    "declaration": false
+  },
+  "exclude": [
+    "node_modules",
+    "samples"
+  ],
+  "files": [
+    "src/index.ts"
+  ],
+  "awesomeTypescriptLoaderOptions": {
+    "resolveGlobs": true,
+    "forkChecker": true
+  }
+}

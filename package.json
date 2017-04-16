@@ -1,0 +1,46 @@
+{
+  "name": "attractive-record",
+  "version": "0.0.1",
+  "description": "Active Record parody for Amazon DynamoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start",
+    "start": "tsc -w",
+    "build": "tsc -d",
+    "dist": "webpack --progress --profile --bail --optimize-minimize"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexVangelov/attractive-record-js.git"
+  },
+  "keywords": [
+    "AWS",
+    "DynamoDB",
+    "Node",
+    "ActiveRecord"
+  ],
+  "author": "Alex Vangelov <email@data.bg>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexVangelov/attractive-record-js/issues"
+  },
+  "homepage": "https://github.com/AlexVangelov/attractive-record-js#readme",
+  "files": [
+    "lib/",
+    "dist/",
+    "samples/"
+  ],
+  "devDependencies": {
+    "@types/jasmine": "^2.5.47",
+    "awesome-typescript-loader": "^3.1.2",
+    "aws-sdk": "^2.41.0",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.6.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-mocha-reporter": "^2.2.3",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-typescript": "^3.0.0",
+    "typescript": "^2.2.2",
+    "webpack": "^2.4.1"
+  }
+}
