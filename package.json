@@ -1,8 +1,8 @@
 {
   "name": "typescript-multipart-library-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Typescript multi-part library template",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "karma start",
     "start": "tsc -w",
