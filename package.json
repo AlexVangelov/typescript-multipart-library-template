@@ -1,7 +1,7 @@
 {
-  "name": "attractive-record",
-  "version": "0.0.1",
-  "description": "Active Record parody for Amazon DynamoDB",
+  "name": "typescript-multipart-library-template",
+  "version": "1.0.0",
+  "description": "Typescript multi-part library template",
   "main": "index.js",
   "scripts": {
     "test": "karma start",
@@ -11,13 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlexVangelov/attractive-record-js.git"
+    "url": "git+https://github.com/AlexVangelov/typescript-multipart-library-template.git"
   },
   "keywords": [
-    "AWS",
-    "DynamoDB",
-    "Node",
-    "ActiveRecord"
+    "typescript",
+    "webpack",
+    "node",
+    "travis",
+    "coverage",
+    "mutipart library"
   ],
   "author": "Alex Vangelov <email@data.bg>",
   "license": "MIT",
@@ -32,6 +34,7 @@
   ],
   "devDependencies": {
     "@types/jasmine": "^2.5.47",
+    "@types/node": "^7.0.12",
     "awesome-typescript-loader": "^3.1.2",
     "aws-sdk": "^2.41.0",
     "jasmine-core": "^2.5.2",
