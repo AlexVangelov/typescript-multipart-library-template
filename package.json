@@ -1,6 +1,6 @@
 {
   "name": "typescript-multipart-library-template",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Typescript multi-part library template",
   "main": "lib/index.js",
   "scripts": {
@@ -34,7 +34,7 @@
   ],
   "devDependencies": {
     "@types/jasmine": "^2.5.47",
-    "@types/node": "^7.0.12",
+    "@types/node": "^6.0.69",
     "awesome-typescript-loader": "^3.1.2",
     "aws-sdk": "^2.41.0",
     "jasmine-core": "^2.5.2",

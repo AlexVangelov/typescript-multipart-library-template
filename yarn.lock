@@ -6,9 +6,9 @@
   version "2.5.47"
   resolved "https://registry.yarnpkg.com/@types/jasmine/-/jasmine-2.5.47.tgz#bbba9bcf0e95e7890c6f4a47394e8bacaa960eb6"
 
-"@types/node@^7.0.12":
-  version "7.0.12"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.12.tgz#ae5f67a19c15f752148004db07cbbb372e69efc9"
+"@types/node@^6.0.69":
+  version "6.0.69"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-6.0.69.tgz#82d955985fcad2b95a72fcf5f8ea630d772535a7"
 
 abbrev@1, abbrev@1.0.x:
   version "1.0.9"
